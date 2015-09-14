@@ -1,0 +1,24 @@
+
+<div class="border row" style="border: 1px solid;">
+    <div class="border col-md-3">
+    Name:
+    <span ng-bind="item.name">
+    </span>
+        </div>
+    <div class="border col-md-3">
+    Price:
+    <span ng-bind="item.price | currency">
+    </span>
+        </div>
+    <div class="border col-md-3">
+    Sale Amount:
+    <span ng-bind="getSale(item) + '%'">
+    </span>
+        </div>
+    <div class="border col-md-3">
+    Description:
+    <span ng-bind="item.description">
+    </span>
+        </div>
+</div>
+
