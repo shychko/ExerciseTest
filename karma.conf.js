@@ -15,6 +15,7 @@ module.exports = function(config) {
 			{pattern: 'client/js/libs/jquery-2.1.4.min.js', included: true},
 			{pattern: 'client/js/libs/angular-mocks.js', included: true},
 			{pattern: 'client/js/libs/angular-resource.min.js', included: true},
+			{pattern: 'client/js/app.js', included: true},
 			{pattern: 'client/tests/*Spec.js', included: true},
 			{pattern: 'client/tests/**/*Spec.js', included: true}
 
